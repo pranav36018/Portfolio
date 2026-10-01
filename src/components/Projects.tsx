@@ -1,4 +1,3 @@
-import { ExternalLink } from 'lucide-react';
 import { Section } from './Section';
 import { Reveal } from './Reveal';
 import { Pill } from './Pill';
@@ -62,16 +61,6 @@ export function Projects() {
                 </div>
 
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <a
-                    href="#contact"
-                    className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-primary-foreground transition-transform duration-300 hover:-translate-y-0.5"
-                    style={{
-                      background: 'var(--gradient-brand)',
-                      boxShadow: 'var(--shadow-glow)',
-                    }}
-                  >
-                    View Project <ExternalLink size={14} />
-                  </a>
                   <a
                     href="#contact"
                     className="glow-border inline-flex items-center rounded-full border border-border px-5 py-2.5 text-sm font-semibold transition-transform duration-300 hover:-translate-y-0.5"
