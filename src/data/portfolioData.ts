@@ -76,7 +76,7 @@ export const FOOTER_LINKS = [
 
 export const STATS: StatItem[] = [
   { value: '8.00', label: 'CGPA · B.E. ISE' },
-  { value: '4', label: 'Major Projects' },
+  { value: '5', label: 'Major Projects' },
   { value: 'GCP', label: 'Cloud Certified' },
   { value: '6/60', label: 'Hackathon Rank' },
 ];
@@ -132,6 +132,18 @@ export const PROJECTS: ProjectItem[] = [
       'Solidity',
       'Gemini API',
     ],
+  },
+  {
+    name: 'BBH Attendance Portal',
+    tagline: 'Enterprise Attendance & Workforce Management Platform',
+    image: '/assets/project-bbh-attendance.jpg',
+    points: [
+      'Redesigned modern dark-themed attendance portal with improved navigation and responsiveness',
+      'Added quick actions for streamlined employee, intern, attendance, and leave management',
+      'Implemented real-time live activity feed for Admin and Director-level supervisory visibility',
+      'Resolved complex dashboard layout and rendering bottlenecks for smooth performance',
+    ],
+    tech: ['React.js', 'Node.js', 'Express.js', 'Tailwind CSS', 'REST API'],
   },
   {
     name: 'Moto India Expedition',
